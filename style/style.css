@@ -1,0 +1,16 @@
+#titulo {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+#ppic {
+    border-radius: 50%;
+}
+
+button {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    color: #AA88DF;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
