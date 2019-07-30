@@ -1,41 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--standard things-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--css reference-->
     <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <!--js reference-->
     <script type="text/javascript" src="js/main.js"></script>
+    <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico&display=swap" rel="stylesheet">
+    <!--fontawesome kit-->
+    <script src="https://kit.fontawesome.com/5fe2338066.js"></script>
+    <!--page title-->
     <title>MiauMininos</title>
 </head>
-<body bgcolor="#FCF1C4">
+    <body bgcolor="#FCF1C4">
     <h1 id="titulo">Miau mininos</h1>
     <center><img id="ppic" src="img/profilepic.jpg" height="200" width="200"></center>
     <br>
     <center>
-        <button id="btn_hide" onclick="ocultar()">Ocultar/Mostrar</button>
-        <div id="seccion_1" class="main">
-            <form action="info.html">
-                <button type="submit">¿Quienes somos?</button>
-            </form>
+        
+        <!--Main section-->
+        <section id="section_0" class="main">
+
+            <button id="btn_1" onclick="changeSection(this)">¿Quienes somos?</button>
             <br><br>
-            <form action="services.html">
-                <button type="submit">Servicios</button>
-            </form>
+            <button id="btn_2" onclick="changeSection(this)">Servicios</button>
             <br><br>
-            <form action="product.html">
-                <button type="submit">Productos</button>
-            </form>
+            <button id="btn_3" onclick="changeSection(this)">Productos</button>
             <br><br>
-            <form action="contact.html">
-                <button type="submit">Contacto</button>
-            </form>
+            <button id="btn_4" onclick="changeSection(this)">Doncaiones</button>
             <br><br>
-            <form action="donate.html">
-                <button type="submit">Doncaiones</button>
-            </form>
-        </div>
+            <a href="https://wa.me/573194928057" target="blank"><i class="fab fa-whatsapp fa-3x"></i></a>
+            <a href="https://www.instagram.com/miaumininos/" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
+
+        </section>
+
+        <!--Info section-->
+        <section id="section_1" class="hide info">
+            <p>Próximamente podrás encontrar todo la indormación sobre nuesta fundación.</p>
+            <button onclick="goMain()">Home</button>
+        </section>
+
+        <!--Services section-->
+        <section id="section_2" class="hide services">
+            <p>Nuestros servicios no los puedes conocer aún.</p>
+            <button onclick="goMain()">Home</button>
+        </section>
+        
+        <!--Products section-->
+        <section id="section_3" class="hide products">
+            <p>Próximamente te mostraremos nuestros Productos.</p>
+            <button onclick="goMain()">Home</button>
+        </section>
+
+        <!--Donation section-->
+        <section id="section_4" class="hide donations">
+            <p>Puedes donar en cualquier momento.</p>
+            <button onclick="goMain()">Home</button>
+        </section>
     </center>
+
 </body>
 </html>
