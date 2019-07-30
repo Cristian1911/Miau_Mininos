@@ -14,3 +14,6 @@ button {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
 }
+.ocultar{
+    display:none;
+}
