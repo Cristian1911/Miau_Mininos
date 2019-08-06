@@ -21,3 +21,12 @@ button {
 p{
     font-size: 40px;
 }
+
+section{
+    text-align: center;
+}
+
+.mainBtn{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
