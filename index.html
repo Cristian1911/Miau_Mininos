@@ -41,6 +41,18 @@
         <!--Info section-->
         <section id="section_1" class="hide info">
             <p>Próximamente podrás encontrar todo la indormación sobre nuesta fundación.</p>
+            <p>Estamos ubicados derca de la estación del metro floresta:</p>
+            <div id="map"><script>
+                var map;
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: 6.262002, lng: -75.593667},
+                        zoom: 8
+                    });
+                }
+                </script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbcEywrWiTR0elVOf0CshguxI32D1e-40&callback=initMap"
+                async defer></script></div>
             <button onclick="goMain()">Home</button>
         </section>
 
