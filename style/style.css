@@ -22,6 +22,10 @@ p{
     font-size: 40px;
 }
 
+.product_description{
+    font-family: 'Baloo Chettan', cursive;
+}
+
 section{
     text-align: center;
 }
