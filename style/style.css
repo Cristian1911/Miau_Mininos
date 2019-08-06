@@ -22,6 +22,11 @@ p{
     font-size: 40px;
 }
 
+.product_description{
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 35px;
+}
+
 section{
     text-align: center;
 }
@@ -47,6 +52,7 @@ section{
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    height: 450px;
 }
 
 @media screen and (max-width: 800px) {
